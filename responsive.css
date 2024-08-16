@@ -1,0 +1,142 @@
+ 
+  
+ @media(max-width:720px){
+    .hero-section img{
+        width: 100%;
+        height: 100%;
+    }
+ }
+
+@media(min-width:1230px){
+    .line1{
+        width: 300px;
+     }
+  
+     .line2{
+        width:320px;
+     }
+
+     .hero-section{
+       border-radius: 30px; 
+    }
+}
+
+@media(max-width:915px){
+    .line1{
+        width: 0px;
+     }
+  
+     .line2{
+        width:0px;
+     }
+
+     .video{
+        width: 100%; 
+        height: 100%;
+    }
+
+    .hero-section{
+        border-radius: 20px; 
+     }
+
+     .box-with-pic-left{ 
+        border-radius: 25px;
+     }
+     .box-with-pic-right{ 
+        border-radius: 25px;
+     }
+}
+
+@media(max-width:640px){
+    .box-with-pic-left-img img{ 
+        width: 100%;
+        height: 100%;
+     }
+
+     .box-with-pic-right-img img{  
+        width: 100%;
+        height: 100%;
+     }
+
+     .hero-section{
+        border-radius: 15px; 
+     }
+     .box-with-pic-left{ 
+        border-radius: 20px;
+     }
+     .box-with-pic-right{ 
+        border-radius: 20px;
+     }
+}
+
+@media(max-width:614px){
+    .question{ 
+        gap: 20px;
+     }
+     .last-question-head{ 
+        gap: 20px;
+     }
+     .faq-left-part{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .video img{
+        height: 40px;
+        width: 40px;
+     }
+}
+
+@media(max-width:450px){
+    .hero-section-content h2{
+        font-size: 50px;
+    }
+
+    .hero-section{
+        border-radius: 10px; 
+     }
+
+     .box-with-pic-left-content h2{
+        font-size: 30px;
+     }
+
+     .box-with-pic-right-content h2{
+        font-size: 30px;
+     }
+
+     .box-with-pic-left{ 
+        border-radius: 15px;
+     }
+     .box-with-pic-right{ 
+        border-radius: 15px;
+     }
+     .video img{
+        height: 30px;
+        width: 30px;
+     }
+}
+@media(max-width:330px){
+    .hero-section-content h2{
+        font-size: 40px;
+    }
+
+    .box-with-pic-left-content h2{
+        font-size: 20px;
+     }
+
+     .box-with-pic-right-content h2{
+        font-size: 20px;
+     }
+
+     .box-with-pic-left{ 
+        border-radius: 10px;
+     }
+     .box-with-pic-right{ 
+        border-radius: 10px;
+     }
+     .video img{
+        height: 20px;
+        width: 20px;
+     }
+}

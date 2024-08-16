@@ -1,0 +1,686 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Inter;
+}
+
+.container{
+    background-color: #000000;
+    padding-bottom: 100px;
+}
+.space-container{
+    padding:20px 40px;
+}
+header{
+    margin: 20px 0;
+} 
+nav{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.nav-logo img {
+    height: 60px;
+    width: 60px;
+}
+.nav-logo h1{
+    font-size: 30px;
+}
+
+.nav-option ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.nav-option ul li a{
+    text-decoration: none;
+}
+
+/* ........................hero-section.......................... */
+
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:  #002B5B;
+    border: 4px solid #77B7FF;
+   border-radius: 40px;
+   padding: 20px 0;
+   
+}
+.hero-section-content{
+    max-width: 430px;
+}
+.hero-section-content h2{
+    font-size: 65px;
+}
+.hero-section-content p{
+    color: #6596CC;
+    font-size: 30px;
+}
+.hero-section img{
+    height: 500px;
+    width: 650px;
+    position: relative;
+    z-index: 1000;
+    filter: drop-shadow(0 0 0.55rem white);
+}
+
+
+/* .............................feature-section..................... */
+
+.feature-section{
+    margin-top: 100px;
+   
+}
+.feature-space{
+    padding: 0 30px;
+}
+
+.feature-h2{
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    z-index: 99;
+}
+.underline-img{
+    display: flex;
+    justify-content: center;
+    transform: translate(0 , -15px);
+    overflow: hidden;
+}
+
+/* ..........................box-with-pic-left,....................... */
+
+ .box-with-pic-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    background-color: #101010;
+    border: 2px solid #A8A8A8;
+    border-radius: 30px;
+    margin: 70px 0;
+ }
+
+ .box-with-pic-left-img img{
+    height: 450px;
+    width: 500px;
+ }
+
+ .box-with-pic-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ }
+
+ .box-with-pic-left-content h2{
+    font-size: 40px;
+ }
+  
+ .box-with-pic-left-content ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   margin-top: 20px;
+    font-size: 20px;
+ }
+
+ .box-with-pic-left-content ul li img{
+    height: 25px;
+    width: 25px;
+ }
+
+ /* ............................box-with-pic-right............................ */
+
+ .box-with-pic-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    background-color: #101010;
+    border: 2px solid #A8A8A8;
+    border-radius: 30px;
+    margin-top: 70px;
+ }
+
+ .box-with-pic-right-img img{
+    height: 450px;
+    width: 500px;
+ }
+
+ .box-with-pic-right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ }
+
+ .box-with-pic-right-content h2{
+    font-size: 40px;
+ }
+  
+ .box-with-pic-right-content ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   margin-top: 20px;
+    font-size: 20px;
+ }
+
+ .box-with-pic-right-content ul li img{
+    height: 25px;
+    width: 25px;
+ }
+
+ .feature-last-box-img img {
+    height: 370px;
+    width:450px ;
+ }
+
+ .videos-h2{
+    text-align: center;
+    font-size: 30px;
+ }
+ .video-outer-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+ }
+ .video-container{
+    background-color: #101010;
+    padding: 55px 40px 40px 40px;
+    border: 2px solid #A8A8A8;
+    border-radius: 25px;
+    
+    
+ }
+
+ .video-container p{
+   font-size: 20px;
+   color: #A8A8A8;
+   text-align: center;
+
+ }
+.video{
+    height: 280px;
+    width: 450px;
+    margin-top: 20px;
+    background-color: #000000;
+  
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .video img{
+    height: 80px;
+    width: 80px;
+ }
+
+ .gin{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+ }
+
+ .gin button{
+    padding: 10px 110px;
+    color: #FFC700;
+    background-color: #392C00;
+    border: 3px solid #FFC700;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+
+ /* ......................how it works..................... */
+ 
+
+ .how-it-work{
+    margin-bottom: 100px;
+ }
+ .hiw-h2{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    z-index: 1000;
+ }
+
+ .hiw-element-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+
+ }
+
+ .hiw-element-img{
+    height: 200px;
+    width: 200px;
+    background-color: #202020;
+    border: 1px solid rgba(255, 255, 255, 0.774);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ 
+   .line-container{
+      position: relative;
+   }
+   .line1{
+      position: absolute;
+      height: 8px;
+      width: 150px;
+      background-color: #202020;
+      top: 100px;
+      left: 200px;
+      z-index: 0;
+   }
+
+   .line2{
+      position: absolute;
+      height: 8px;
+      width: 165px;
+      background-color:#202020;
+      top: 100px;
+      left: 200px;
+      z-index: 0;
+   }
+
+ .hiw-element{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 10000;
+ }
+
+ .hiw-element-img img{
+    height: 80px;
+    width: 80px;
+ }
+ .hiw-element-h2 h2{
+    font-size: 37px;
+ }
+ .hiw-element-p p {
+    font-size: 20px;
+    color:#686868;
+ }
+
+
+ /* ......................review..................... */
+
+ .review-h2{
+    text-align: center;
+    font-size: 30px ;
+ }
+
+ .review-element-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin: 100px 0px;
+   background-image: url("grid\ 1.png");
+   background-size: contain;
+   background-position: center;
+  
+
+ }
+ .review-element{
+   background-color: #101010;
+   border: 2px solid #686868;
+   border-radius: 40px;
+   padding: 30px 30px 100px 30px;
+ }
+ .review-element-head{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   flex-wrap: wrap;
+ }
+ .review-element-head img{
+   height: 60px;
+   width: 60px;
+ }
+ .review-element-head h2{
+   color: #008DDA;
+   font-size: 20px;
+ }
+ .review-element-body {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+ }
+
+ .review-element-body p{
+   color: #686868;
+   font-size: 18px;
+ }
+ .review-element-body img{
+   height: 35px;
+   width: 35px;
+ }
+  
+.quotes-down{
+   align-self: flex-end;
+}
+.review-arrow{
+   height: 70px;
+   width: 70px;
+}
+ 
+
+
+/* ............................pricing.............................. */
+
+.pricing-h2 {
+   text-align: center;
+   
+}
+
+.pricing-h2 h2{
+   position: relative;
+   z-index: 1000;
+   font-size: 35px;
+   text-transform: uppercase;
+}
+.pricing-element-outer-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.pricing-element-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   flex-wrap: wrap;
+   background: linear-gradient(to top, rgb(68, 68, 216), black);
+}
+.pricing-element{
+   background-color: rgb(21, 21, 59);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 30px;
+   padding: 30px;
+   border-top: 8px solid rgb(36, 36, 172) ;
+   border-bottom: 8px solid rgb(36, 36, 172) ;
+   border-left: 5px solid rgb(36, 36, 172) ;
+   border-right: 5px solid rgb(36, 36, 172) ;
+   border-radius: 20px;
+   
+}
+.pricing-element h3{
+   font-size: 15px;
+   color: aquamarine;
+}
+.pricing-element h2{
+   font-size: 35px;
+}
+.pricing-element h2 sup, sub{
+   font-size: 15px;
+}
+.pricing-element h2 sub {
+   color:gray;
+}
+
+.pricing-element img {
+   height: 130px;
+   width: 130px;
+}
+
+ 
+.pricing-element ul li {
+   margin-top: 18px;
+   font-size: 12px;
+   line-height: 18px;
+}
+
+.buy-now{
+   padding: 10px 60px;
+   color:white;
+   background-color:rgb(26, 26, 146);
+   border: none;
+   border-radius: 5px;
+}
+
+
+/* ...........................faq............................ */
+
+.faq{
+   margin: 100px 0;
+}
+
+.faq-h2{
+   text-align: center;
+}
+
+.faq-h2 h2{
+   position: relative;
+   z-index: 1000;
+   text-transform: uppercase;
+   font-size: 30px;
+}
+.faq-element-outer-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+}
+
+.faq-element-container{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   flex-wrap: wrap;
+}
+
+
+.question{
+   display: flex;
+   gap: 250px;
+   flex-wrap: wrap;
+   background-color: #141414;
+   padding:25px 45px;
+   border-radius: 10px;
+   margin-bottom: 8px;
+
+}
+.question p{
+   font-size: 25px; 
+}
+.question img{
+   height: 30px;
+   width: 30px;
+}
+
+.last-question{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 20px;
+   background-color: #141414;
+   padding:25px 45px;
+   border-radius: 10px;
+   padding-bottom: 250px;
+}
+.last-question-head{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 250px;
+}
+.last-question-head img{
+   height: 30px;
+   width: 30px;
+}
+.last-question p{
+   font-size: 25px; 
+}
+.last-question h6{
+   font-size: 18px;
+   color: #686868;
+}
+
+.faq-right-part{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.faq-right-part h2{
+   text-transform: capitalize;
+   font-size: 35px;
+}
+.faq-right-part p {
+   color: #686868;
+   font-size: 23px;
+}
+.chat-btn{
+   background-color:rgb(21, 21, 59);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: wrap;
+   padding: 10px 0;
+   border: 3px solid white;
+   border-radius: 15px;
+   
+}
+.chat-btn img {
+   height: 30px;
+   width: 30px;
+}
+.chat-btn a {
+   text-decoration: none;
+   color: #0093E3;
+   font-size: 25px;
+   font-weight: bold;
+ 
+}
+
+
+/* .............................contact us......................... */
+
+
+.contact-us{
+   padding: 0 40px;
+   margin: 100px 0;
+}
+.contact-us-h2{
+   text-align: center;
+}
+.contact-us-h2 h2{
+   position: relative;
+   z-index: 1000;
+   font-size: 30px;
+   text-transform: uppercase;
+}
+
+
+
+.contact-us-element-outer-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color:  #0D0D0D;
+   padding: 50px 0;
+   border: 2px solid 
+   #727272;
+   border-radius: 15px;
+   margin-top: 50px;
+}
+
+.contact-us-element-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 60px;
+}
+.contact-us-head{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 50px;
+}
+
+ .message-btn{
+   background-color:#00283D;
+   color:  #0093E3;
+   padding: 8px 40px;
+   border: 2px solid  #0093E3;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+.contact-us-head-p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.contact-us-head-p p {
+   font-size: 25px;
+}
+
+.contact-us-head-p img {
+   height: 35px;
+   width: 35px;
+}
+
+
+.contact-us-foot{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 50px;
+}
+.contact-us-foot img {
+   height: 35px;
+   width: 35px;
+}
